@@ -1,0 +1,118 @@
+body {
+  font-family: "Computer Modern", "CMU Serif", "Liberation Serif", serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 80px 0 0 0; /* Add 50px padding to the top of the page */
+  background-color: #fafafa;
+}
+
+h1 {
+  font-family: "Computer Modern", "CMU Serif", "Liberation Serif", serif;
+  font-size: 42px;
+  margin: 0; /* Add this line to remove the margin */
+  font-weight: normal; /* Add this line to set the font weight to normal */
+}
+
+
+h2 {
+  font-size: 26px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Computer Modern", "CMU Serif", "Liberation Serif", serif;
+  font-weight: normal; /* Add this line to set the font weight to normal */
+}
+
+  p {
+    line-height: 1.5;
+    font-size: 19px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  li {
+    margin: 5px 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  header {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+  }
+  
+  nav a:hover {
+    color: #0c2196;
+  }
+  
+  main {
+    max-width: 800px; /* Set a maximum width for the container */
+    width: 100%; /* Add this property to ensure that the container takes up the full width of the page */
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 0; /* Add this to remove the top margin */
+  }
+  
+  
+  
+  main section {
+    padding: 0px;
+  }
+  
+  main section h2 {
+    margin-top: 0;
+    padding-bottom: 5px;
+  }
+  
+  
+  hr {
+    border: none;
+    height: 1px;
+    background-color: #DDD;
+    margin: 20px auto; /* Increase the margin to add more space between sections */
+    width: 80%; /* Increase the width to make the line longer */
+    max-width: 800px; /* Set a larger max-width to allow longer lines */
+  }
+  
+  #about a {
+    color: rgb(19, 19, 199); /* Change the color to your desired value */
+     /* Remove underline if desired */
+  }
+  
+  #about a:hover {
+    text-decoration: underline;
+  }
+
+  .social-media-buttons a {
+    margin-right: 10px; /* Adjust the margin value to increase or decrease spacing */
+  }
+
